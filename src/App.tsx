@@ -12,7 +12,6 @@ interface PartyTheme {
   items: PartyItem[];
 }
 
-
 const ChatGPTQuery = () => {
   const [theme, setTheme] = useState('');
   const [partyData, setPartyData] = useState<PartyTheme>({ theme: '', items: [] });
